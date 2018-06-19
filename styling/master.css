@@ -1,0 +1,24 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('nav.css');
+
+body, .form-control, .btn{
+  font-size: 14px !important;
+}
+
+body button.btn-default{
+  border: 1px solid #ced4da;
+}
+
+body button.btn-default:hover{
+  background: #bebebe;
+}
+
+.main {
+  background: #eeeeee;
+}
+.main .container{
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+#header img.logo{
+  width: 100%;
+  margin: 10px;
+}
+
+#header .help {
+  margin: 5px 0;
+}
+
+#header .help a{
+  padding: 0 .75rem;
+  margin-bottom: 5px;
+}
+
+#header .help a:not(:last-child){
+  border-right: 1px solid #ccc;
+}
+
+#header .search button{
+  border: 1px solid #ced4da;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+#header .search input{
+  border-left: none;
+}
+
+#header .search .input-group{
+  margin: 0 !important;
+  width: calc(100% - 90px);
+}
+
+#header .search .input-group-text{
+  border-right: none;
+  background: none;
+}
+
+#header .search-btn{
+  padding: 0;
+}
