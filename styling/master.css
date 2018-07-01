@@ -22,3 +22,70 @@ body button.btn-default:hover{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.accessibility{
+  position: fixed;
+  top: 40%;
+  bottom: 50%
+  left: 0;
+}
+
+.accessibility .accessibility-content{
+  position: relative;
+}
+
+.accessibility .accessibility-content .icons {
+  margin: 5px 0 5px 5px;
+}
+
+.accessibility .accessibility-content .icons a{
+  display: block;
+  font-size: 24px;
+  background: white;
+  border: 1px solid #b7b7b7;
+  padding: 2px 4px;
+}
+
+.accessibility .accessibility-content .icons a:hover{
+  background: #ccc;
+}
+
+.accessibility .accessibility-content .icons a:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+.accessibility .accessibility-content .icons a:last-child{
+  border-radius: 0 0 0 5px;
+}
+
+.accessibility .accessibility-content .show-hide{
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 23px;
+  line-height: 100%;
+  padding: 265% 0 0 0;
+  background: #b7b7b7;
+  border-radius: 0 5px 5px 0;
+}
+
+.accessibility .accessibility-content .show-hide::before{
+  margin-left: 4px;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+.accessibility .accessibility-content .show-hide.hide::before{
+  content: '\f053';
+}
+
+.accessibility .accessibility-content .show-hide.show::before{
+  content: '\f054';
+}

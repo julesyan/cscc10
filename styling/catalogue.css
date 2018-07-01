@@ -17,7 +17,7 @@
 .card h5{
   margin: 0;
   position: relative;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .card h5::before{
@@ -34,8 +34,16 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.card .card-header{
+  padding: 7px 10px;
+}
+
 .card .card-header:hover{
   cursor: pointer;
+}
+
+.card .card-body{
+  padding: 10px;
 }
 
 .options{

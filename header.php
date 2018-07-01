@@ -1,7 +1,22 @@
+<div class="accessibility">
+  <div class="accessibility-content">
+    <div class="icons text-center">
+      <a href="#"><i class="fas fa-search-plus"></i></a>
+      <a href="#"><i class="fas fa-eye-slash"></i></a>
+      <a href="#"><i class="fas fa-headphones"></i></a>
+      <a href="#"><i class="fas fa-globe-americas"></i></a>
+      <a href="#"><i class="fas fa-cogs"></i></a>
+      <a href="#"><i class="fas fa-question"></i></a>
+    </div>
+    <div class="show-hide hide"></div>
+  </div>
+</div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-5 col-md-3 col-lg-2">
-      <img src="./imgs/logo.png" alt="logo" class="logo">
+      <a href="./">
+        <img src="./imgs/logo.png" alt="logo" class="logo">
+      </a>
     </div>
     <div class="col">
       <div class="row">

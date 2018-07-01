@@ -8,6 +8,16 @@ var DIGITAL_BOOKS = [ "Electronic Resources",
 
 $(document).ready(function(){
   turnOnPopOver();
+
+  $('.accessibility .show-hide').on('click', function(){
+    if ($(this).hasClass('show')){
+      $(this).removeClass('show').addClass('hide');
+      $('.accessibility').animate({left: "0px"}, 500);
+    } else {
+      $(this).removeClass('hide').addClass('show');
+      $('.accessibility').animate({left: "-45px"}, 500);
+    }
+  });
 });
 
 function turnOnPopOver(){
