@@ -1,0 +1,132 @@
+#search_results{
+  padding: 10px 0 10px 0;
+}
+
+.card:not(last-child):not(first-child){
+  border-radius: 0;
+}
+
+.card:first-child{
+  border-radius: 5px 5px 0 0;
+}
+
+.card:last-child{
+  border-radius: 0 0 5px 5px;
+}
+
+.card h5{
+  margin: 0;
+  position: relative;
+  font-size: 18px;
+}
+
+.card h5::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card .card-header:hover{
+  cursor: pointer;
+}
+
+.options{
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.options .buttons{
+  font-size: 24px;
+}
+
+.options .buttons i{
+  padding-right: 10px;
+}
+
+.options .buttons i:hover{
+  cursor: pointer;
+}
+
+.options .pages{
+  font-size: 12px;
+}
+
+.options .pages a{
+  padding: 0 5px 0 5px;
+}
+
+.options .pages a.move{
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  padding-right: 2px;
+}
+
+.options .pages a.move:not(last-child){
+  margin: 0 2px 0 2px;
+}
+
+.options .pages a.move:hover{
+  text-decoration: none;
+  background: #efefef;
+}
+
+.options .pages a.next-page{
+  padding-right: 0px;
+}
+
+.options .pages a.last-page{
+  padding-right: 3px;
+}
+
+.options .pages .double.first{
+  margin-right: -6px;
+}
+
+.actions{
+  margin: 0 15px 10px 15px;
+}
+
+.actions input[type="checkbox"]{
+  margin-top: 14px;
+}
+
+.item{
+  padding: 10px;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  margin-right: 10px;
+}
+
+img.cover{
+  width: calc(100% - 16px);
+  padding: 10px;
+}
+
+input.item-checkbox{
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.item-content{
+  font-size: 14px;
+}
+
+.item-content .item-title{
+  font-size: 18px;
+}
+
+.item .field {
+  display: block;
+}
+
+.item .field .sub-field{
+  font-weight: bold;
+}

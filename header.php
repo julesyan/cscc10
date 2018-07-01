@@ -12,13 +12,15 @@
       </div>
       <div class="row justify-content-end">
         <div class="col-md-6 text-right search">
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+          <form id="search" action="./catalogue.php" >
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+              </div>
+              <input name="query" type="text" class="form-control" placeholder="Find books, music, movies, and more" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <input type="text" class="form-control" placeholder="Find books, music, movies, and more" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <button type="button" name="button" class="btn btn-default">Search</button>
+            <button type="submit" class="btn btn-default">Search</button>
+        </form>
         </div>
       </div>
       <div class="row justify-content-end">
