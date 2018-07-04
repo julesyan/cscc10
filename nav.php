@@ -6,7 +6,7 @@
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="./locations.php">Location and Hours</a>
-      <a class="dropdown-item" href="./holiday_hours.php">Holiday Hours</a>
+      <a class="dropdown-item" href="./holiday_schedule.php">Holiday Hours</a>
       <a class="dropdown-item" href="./membership.php">Membership</a>
       <a class="dropdown-item" href="./fines.php">Fines</a>
       <a class="dropdown-item" href="./supporting.php">Support</a>

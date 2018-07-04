@@ -39,40 +39,40 @@
               <div class="carousel slide multi-item-carousel" id="theCarousel">
                 <div class="carousel-inner">
                   <div class="item active">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book1.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book1.jpg"
                                                             alt="book1"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <div class="item">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book2.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book2.jpg"
                                                             alt="book2"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <div class="item">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book3.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book3.jpg"
                                                             alt="book3"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <div class="item">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book4.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book4.jpg"
                                                             alt="book4"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <div class="item">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book5.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book5.jpg"
                                                             alt="book5"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <div class="item">
-                    <div class="col-xs-4"><a href="#1"><img src="./imgs/covers/book6.jpg"
+                    <div class="col-xs-4" style="height: 300px; text-align: center"><a href="#1"><img src="./imgs/covers/book6.jpg"
                                                             alt="book6"
                                                             class="img-responsive"
-                                                            style="width: 300px; height: 300px;"></a></div>
+                                                            style="height: 300px; display: inline;"></a></div>
                   </div>
                   <!-- add  more items here -->
                   <!-- Example item start:  -->
