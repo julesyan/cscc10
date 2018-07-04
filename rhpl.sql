@@ -1,3 +1,5 @@
+DROP DATABASE cscc10;
+CREATE DATABASE cscc10;
 USE cscc10;
 
 CREATE TABLE itemTypes(
@@ -11,11 +13,11 @@ CREATE TABLE items(
 	genre VARCHAR(100),
 	language VARCHAR(50),
 	cover VARCHAR(100),
-	excerpt VARCHAR(1000),
-	summary VARCHAR(1000),
+	excerpt VARCHAR(10000),
+	summary VARCHAR(10000),
 	phyDescp VARCHAR(100),
 	ageLevel VARCHAR(30) CHECK (ageLevel IN ("Adult", "Children's", "Young Adult")),
-	isbn INTEGER,
+	isbn BIGINT,
 	pubDate YEAR(4),
 	typeOfBook VARCHAR(50),
 	totalAvailable INTEGER,
@@ -69,8 +71,9 @@ His works include Fallen Angels, Till I End My Song: A Gathering of Last Poems, 
 				9780791056592,
 				2000,
 				'Book',
-				2),
-
+				2);
+INSERT INTO items (name, author, subject, genre, language, cover, excerpt, summary, phyDescp, ageLevel, isbn, pubDate, typeOfBook, totalAvailable)
+	VALUES
 			(	'Margaret Atwood',
 				'Frank Davey',
 				'Books & Reading, Canadian, Feminist, Literary Criticism, Semiotics & Theory',
@@ -84,11 +87,12 @@ Born in Vancouver, Frank Davey attended the University of British Columbia where
 				"Margaret Atwood's writing, according to Davey, reveals not only an extraordinary facility with language, but also a deep mistrust of it as something shaped by an instrumental and largely male culture. Her language directs its readers to a hidden level of itself - unspoken, symbolic, gestural - and away from denotative meaning.",
 				'',
 				'Adult',
-				'',
+				1111111111111,
 				2014,
 				'eBook',
-				1),
-
+				1);
+INSERT INTO items (name, author, subject, genre, language, cover, excerpt, summary, phyDescp, ageLevel, isbn, pubDate, typeOfBook, totalAvailable)
+	VALUES
 			(	'Margaret Atwood revisted',
 				'Stein, Karen F., 1941-',
 				'',
@@ -96,10 +100,10 @@ Born in Vancouver, Frank Davey attended the University of British Columbia where
 				'English',
 				'',
 				"When Jerome H. Rosenberg's Margaret Atwood (CH, Jan'85) appeared, it was the second critical study of that writer. One of Stein's problems is that the literature on Atwood now includes more than two dozen books. Another is that Atwood has continued to publish novels, short fiction, poetry, criticism, and other writing at a prolific rate for the last 15 years. Stein (Univ. of Rhode Island) tries to account for it all, while also providing a sense of the rich critical debates that Atwood has inspired--a task impossible in the confines of a Twayne book. Stein nonetheless has valuable things to say, especially about the novels. Although her discussions of the poetry and short fiction are brief and frustratingly general, each of the nine novels receives an incisive if compressed treatment. Stein is especially good on the themes that pervade Atwood's work, such as the status of storytelling and gender: \"Many of Atwood's protagonists are Scheherazades, narrating their stories to win over hostile listeners.\" Like all Twayne books, this one is designed for the introductory student, whom it will serve well. T. Ware; Queen's University at Kingston",
-				"Award-winning Canadian poet, novelist, and critic, author of \"The Handmaid's Tale\" (1985), known for her Canadian nationalism and feminism.",
+				"Award-winning Canadian poet, novelist, and critic, author of 'The Handmaid's Tale' (1985), known for her Canadian nationalism and feminism.",
 				'xx, 176 p. ; 23 cm.',
 				'Adult',
-				9780805716146,
+				9780791056592,
 				1999,
 				'Book',
 				1);
