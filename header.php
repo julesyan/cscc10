@@ -8,7 +8,7 @@
       <a href="#"><i class="fas fa-cogs"></i></a>
       <a href="#"><i class="fas fa-question"></i></a>
     </div>
-    <div class="show-hide hide"></div>
+    <div class="show-hide hide-section"></div>
   </div>
 </div>
 <div class="container-fluid">

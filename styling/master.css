@@ -87,7 +87,7 @@ body button.btn-default:hover{
   vertical-align: middle;
 }
 
-.accessibility .accessibility-content .show-hide.hide::before{
+.accessibility .accessibility-content .show-hide.hide-section::before{
   content: '\f053';
 }
 
